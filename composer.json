@@ -11,6 +11,11 @@
         "magento/magento-composer-installer": "*"
     },
     "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
     "extra": {
         "map": [
             [
