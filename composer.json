@@ -1,0 +1,22 @@
+{
+    "name": "marbius/language-ru_ru",
+    "description": "Russian language",
+    "version": "100.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-language",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "marbius/ru_ru"
+            ]
+        ]
+    }
+}
